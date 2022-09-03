@@ -5,11 +5,11 @@ An operator is character that performs a task in our code.
 JavaScript has several built in arithmetic operators , that allow us to perform mathematical calculations on numbers.
 These include the following operators and their corresponding symbols.
 
-# Add  : +
-# Substract : -
-# Multiply : *
-# Devine : /
-# Remainder : %
+## Add  : +
+## Substract : -
+## Multiply : *
+## Devine : /
+## Remainder : %
 
 ### Example
 The first four work how you might guess :
