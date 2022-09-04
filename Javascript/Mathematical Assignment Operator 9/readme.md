@@ -42,10 +42,23 @@ which work in a similar fashion .
 - Use the *= mathematical assignment operator to multiply the value stored in multiplyMe by 11.
 - Use the /=  mathematical assignment operator to devide the value stored in quarterMe by 4.
 
+### The Increment and Decrement Operator 
+Other mathematical assignment operators include the increment operator (++) and decrement operator (--).
+The increment operator wil increase the value of the variable by 1. The decrement operator will decrease the value of the variable by 1 . For example .
 
+##### let a = 10;
+##### a++;
+##### console.log(a); //Output : 11
 
+##### let b = 20;
+##### b--;
+##### console.log(b); // Output : 19
 
+Just like the previous mathematical assignment operators(+=,-=,*=,/=) the variable's value is updated and assigned as the new value of that variable.
 
+### Exercise 
+- Using the increment operator , increase the value of gainedDollar.
+- Using the decrement operator, decrease the value of lostDollar.
 
 
 
