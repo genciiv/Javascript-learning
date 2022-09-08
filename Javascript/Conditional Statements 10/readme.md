@@ -195,7 +195,69 @@ if(myVar){
     console.log('The variable is not initialized')
 }
 
-The code block in the if statement will run 
+The code block in the if statement will run because myVariable has a truthy value even through the value of myVariable is not explicitly the value true , when used in boolean or conditional context, in evaulates to true because it has been assigned a non-falsy value.
+
+So which values are falsy - or evaulate to false when checked as a conditional > The list of falsy values includes:
+- 0
+- Empty string like "or"\null which represent when there is no value at all
+- undefined which represent when a declared variable lacks a value 
+- NaN or Not a Number
+
+Below checks if username is defined and assigns a defaultstring if it is not:
+
+let defaultName;
+if(username){
+    defaultName = username;
+}else{
+    defaultName = 'Stranger';
+}
+
+If you combine your knowledge of logical operators you can use a short-hand for the code above. In a boolean condition , JavaScript assigns the truthy value to a variable if you use the || operator in your assignment:
+
+let defaultName = username || 'Stranger'
+
+Because || or statments check the left-hand condition first , the variable defaultName will be assigned the actual value of username if it is truthy and it will be assigned the value of 'Stranger' if username is falsy. This concept is also referred to as short-circuit evaluation.
+
+let username;
+let defaultName;
+if(username){
+    defaultName = username;
+}else{
+    defaultName = 'Stranger';
+}
+console.log(defaultName);
+
+
+### Ternary Operator
+
+In the spirit of using short-had syntax we can use a ternary operator to simplify an if...else statment
+
+Take a look at the if...else statment example :
+
+let isNightTime=true;
+if(isNightTime){
+console.log('Turn on the light');
+}else{
+console.log('Turn off the light');
+}
+
+In the example above "
+- The condition isNightTIme is provided before the ?
+- Two expressions follow the? and are separated by a colon :
+- If the condition evaluates to true , the first expression executes
+- If the condition evaulate to false , the second expression executes
+
+let stopLight = yellow;
+
+if(stopLight==='red'){
+    console.log('Stop');
+}else if(stopLight==='yellow'){
+    console.log('Slow down');
+}else if(stopLight==='green'){
+    console.log(Go);
+}else{
+    console.log('Caution,unknow');
+}
 
 
 
