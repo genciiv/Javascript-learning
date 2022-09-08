@@ -1,5 +1,4 @@
 # Javascript-learning
-
 ### What is Javascript?
 
 JavaScript is basically known as the language of the most modern web browser .
@@ -8,6 +7,18 @@ JavaScript powers the dynamic behavior on the most websites of internet.
 
 We going to learn introductory coding concepts including data types and buid in objects .
 With this you'll understanding the more complex concepts
+
+##### - [Introduction Part 1](https://github.com/genciiv/Javascript-learning/tree/main/Javascript/Introduction%20Part%201)
+##### - [Data Types 2](https://github.com/genciiv/Javascript-learning/tree/main/Javascript/Data%20Types%202)
+##### - [Arithmetic Operators 3](https://github.com/genciiv/Javascript-learning/tree/main/Javascript/Arithmetic%20Operators%203)
+##### - [Strings 4](https://github.com/genciiv/Javascript-learning/tree/main/Javascript/Strings%204)
+##### - [Properties 5](https://github.com/genciiv/Javascript-learning/tree/main/Javascript/Properties%205)
+##### - [Methods 6](https://github.com/genciiv/Javascript-learning/tree/main/Javascript/Methods%206)
+##### - [Objects 7](https://github.com/genciiv/Javascript-learning/tree/main/Javascript/Objects%207)
+##### - [Variables 8](https://github.com/genciiv/Javascript-learning/tree/main/Javascript/Variables%208)
+##### - [Mathematical Assignment Operator 9](https://github.com/genciiv/Javascript-learning/tree/main/Javascript/Mathematical%20Assignment%20Operator%209)
+
+
 
 ### Code Editor 
 To start coding with JavaScript you need a code editor to put your code there.
