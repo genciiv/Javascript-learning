@@ -188,6 +188,15 @@ if(myVariable){
 
 
 
+let myVar; // =value;
+if(myVar){
+    console.log(myVar);
+}else{
+    console.log('The variable is not initialized')
+}
+
+The code block in the if statement will run 
+
 
 
 
