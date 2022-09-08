@@ -95,10 +95,96 @@ The code above would be asking : is 10 less then 12 ? So 10 <12 evaluate to true
 
 After you press run , play around with the condition by tweking the comparison of hungerLevel by using different operators such as  <=, >= , > , < , 
 
+let hungerLevel = 7;
+if(hungerLevel<=7){
+    console.log('Time to eat');
+}else{
+    console.log('Time to wait');
+}
+
+##### Logical Operators
+
+Working with conditionals means that we will be using booleans , true or false values.
+In javascript , there are operators that work with boolean values known as logical operators .
+We can use logical operators to add more sophisticated logic to our conditionals.
+There are three logical operators :
+
+- The and operator (&&)
+- The or operator (||)
+- The not operator , otherwise known as the bang operator (!)
+
+###### When we use the && operator , we are checking that two things are true
+
+let stopLight ='green';
+let pedestrians = 0;
+
+if (stopLight === 'green' && pedestrians===0){
+    console.log('GO!')
+}else{
+    console.log('Stop')
+}
+
+###### When using the && operator , both conditions must evaluate to true for the entire condition to evaluate to true and exucute.
+
+If we only care about either condition begin true , we can use the || operator
+
+if(day==='Saturday' || day==='Sunday'){
+    console.log('Enjoy the weekend');
+}else{
+    console.log('Do some work')
+}
+
+When using the || operator , only one of the conditions must evaluate to true for the overall statement to evaluate to true. In the code example above , if either day==='Saturday' or day===='Sunday' evaluate to true the ifs condition will evaluate to true and its code block will execute . The code in the else statement above will execute only if both comparisons evaluate to false.
 
 
+###### The ! not operator reverses , or negates , the value of a boolean
 
+let excited = true;
+console.log(excited) // Prints false
 
+let sleepy = false;
+console.log(sleepy); //Prints true
+
+Essentially the ! operator will either take a true value and pass back false , or it will take a false value and pass back true.
+Logical operators are often used in conditional statements to add another  layer of logic to our code
+
+let excited = true;
+
+if(!excited){
+    console.log('I am exited');
+}else{
+    console.log('I am not exited');
+}
+
+### Exercise
+
+- Declare two variab;es mood='sleepy' and tirednessLevel=5.
+- Lets create an if....else statement that check if mood is sleepy and tirednessLevel is greater then 8.
+
+-If both conditions evaluate to true , then console.log() the string 'Time to sleep' . Otherwise , we should console.log() 'not bed time yet'
+-After your press "Run" , play around with the || operator and the ! operator ! What happens if you negate the value of the entire statement with ! and switch to || instead of &&
+
+let mood = 'sleepy';
+let tirednessLevel = 5;
+
+if(!(mood==='sleepy' && tiredlessLevel >8)){
+    console.log('time to sleep');
+}else{
+    console.log('not bed time yet');
+}
+
+#### Truthy and Falsy
+
+Lets consider how non-boolean data types , like strings or numbers are ealuated when checked inside a condition.
+
+Sometime you will want to check is a variable exists and you want necessarily want it to equal a specific value - you will only check to see if the variables has been assigned a value.
+
+let myVariable = 'I Exist';
+if(myVariable){
+    console.log(myVariable)
+}else{
+    console.log('The variable does not exist')
+}
 
 
 
